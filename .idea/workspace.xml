@@ -1,22 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd3f15dc-b95d-4e7a-9b07-0e27f11022dd" name="Default Changelist" comment="" />
+    <list default="true" id="fd3f15dc-b95d-4e7a-9b07-0e27f11022dd" name="Default Changelist" comment="Fix alignment of output and bug fix.">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dji/com/company/ShortestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dji/com/company/ShortestPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1fXPdVkRgkPCPsA4JQbdVd33fth" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/20191199_CW02/GYM" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -28,24 +55,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,37 +87,59 @@
       <updated>1596361551910</updated>
       <workItem from="1596361562793" duration="14037000" />
       <workItem from="1596550788045" duration="4525000" />
+      <workItem from="1596698074056" duration="6623000" />
+      <workItem from="1596801280578" duration="3446000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix alignment of output and bug fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix alignment of output and bug fix." />
   </component>
   <component name="WindowStateProjectService">
     <state x="172" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596361712215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="172" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596361712215" />
+    <state x="707" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596803769393">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="707" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.32.1920.1048@0.32.1920.1048" timestamp="1596803769393" />
+    <state x="947" y="154" key="CommitChangelistDialog2" timestamp="1596806370216">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="947" y="154" key="CommitChangelistDialog2/0.32.1920.1048@0.32.1920.1048" timestamp="1596806370216" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596551945659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596551945659" />
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1596530730167">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1596806370417">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596530730167" />
-    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1596530730167">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1596806370417" />
+    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1596806370417">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596530730167" />
-    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1596530730167">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="320" key="GridCell.Tab.0.center/0.32.1920.1048@0.32.1920.1048" timestamp="1596806370417" />
+    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1596806370417">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596530730167" />
-    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1596530730167">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="320" key="GridCell.Tab.0.left/0.32.1920.1048@0.32.1920.1048" timestamp="1596806370417" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1596806370417">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596530730167" />
+    <state width="1877" height="320" key="GridCell.Tab.0.right/0.32.1920.1048@0.32.1920.1048" timestamp="1596806370417" />
+    <state x="461" y="200" key="SettingsEditor" timestamp="1596730447605">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="461" y="200" key="SettingsEditor/0.32.1920.1048@0.32.1920.1048" timestamp="1596730447605" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1596550811372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

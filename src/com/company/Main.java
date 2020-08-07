@@ -8,7 +8,7 @@ class ShortestPath {
     // A utility function to find the vertex with minimum distance value,
     // from the set of vertices not yet included in shortest path tree
     static final int V = 9;
-    int minDistance(int dist[], Boolean sptSet[])
+    int minDistance(int[] dist, Boolean[] sptSet)
     {
         // Initialize min value
         int min = Integer.MAX_VALUE, min_index = -1;
@@ -23,40 +23,42 @@ class ShortestPath {
     }
 
     // A utility function to print the constructed distance array
-    void printSolution(int dist[], int n)
+    void printSolution(int[] dist, int n)
     {
-        String Btype[] = {"A+", "B+", "O+", "O-", "AB+", "AB-", "A-", "B-", "A+"};
-        String local[] = {"Gal", "Mat", "Ham", "Cmb", "Wal", "Mul", "Kar", "Mir", "Hir"};
-        String type="A+";
+        String[] Btype = {"A+", "B+", "O+", "O-", "AB+", "AB-", "A-", "B-", "A+"};
+        String[] local = {"Galle", "Matara", "Hambanthota", "Colombo", "Kaluthara", "Kandy", "Trinko", "Jaffna", "Puttalam"};
+        String type="O+";
         int min=1000;
         String loca="";
-        System.out.println("Vertex      Distance from Source");
+        System.out.format("%-15s %-25s","Vertex","Distance from Source");
+        System.out.println();
         for (int j = 0; j < V; j++) {
-            if (Btype[j] == "A+") {
+            if (Btype[j] == type) {
 //                 min=dist[j];
 //                for (int i = 0; i < V; i++)
-                    System.out.println(local[j] + "       tt      " + dist[j]);
+                    System.out.format("%-15s %5s", local[j] , dist[j]);
+                    System.out.println();
                     if (dist[j]<min){
                         min=dist[j];
                         loca=local[j];
                     }
             }
         }
-        System.out.println("************************************************");
-        System.out.println("The Nearest Place with Requested blood type is from :" + loca+" and the distance from source is " + min +"Km");
+        System.out.println("*****************************************************************************************************");
+        System.out.println("The Nearest Place with Requested blood type(" + type + ") is from :" + loca+" and the distance from source is " + min +"Km");
     }
 
     // Function that implements Dijkstra's single source shortest path
     // algorithm for a graph represented using adjacency matrix
     // representation
-    void dijkstra(int graph[][], int src)
+    void dijkstra(int[][] graph, int src)
     {
-        int dist[] = new int[V]; // The output array. dist[i] will hold
+        int[] dist = new int[V]; // The output array. dist[i] will hold
         // the shortest distance from src to i
 
         // sptSet[i] will true if vertex i is included in shortest
         // path tree or shortest distance from src to i is finalized
-        Boolean sptSet[] = new Boolean[V];
+        Boolean[] sptSet = new Boolean[V];
 
         // Initialize all distances as INFINITE and stpSet[] as false
         for (int i = 0; i < V; i++) {
@@ -96,7 +98,7 @@ class ShortestPath {
     public static void main(String[] args)
     {
         /* Let us create the example graph discussed above */
-        int graph[][] = new int[][] { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
+        int[][] graph = new int[][] { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
                 { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
                 { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
                 { 0, 0, 7, 0, 9, 14, 0, 0, 0 },
